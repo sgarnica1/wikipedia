@@ -1,0 +1,11 @@
+.header-section-left {
+  position: relative;
+  /* margin-right: 30px; */
+  width: 270px;
+}
+.world-logo img{
+  position: absolute;
+  top: 15.8rem;
+  left: 3.5rem;
+  width: 200px;
+}
