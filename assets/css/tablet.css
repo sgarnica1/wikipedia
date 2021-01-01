@@ -1,11 +1,23 @@
-.header-section-left {
+.header {
   position: relative;
-  /* margin-right: 30px; */
-  width: 270px;
+  margin-top: 4rem;
 }
-.world-logo img{
+.header-section-right {
+  margin: 1.2rem 0;
+  margin-right: 2rem;
+}
+.header-section-right img{
+  width: 17.6rem;
+}
+.header-section-right p {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+.header-section-left {
   position: absolute;
   top: 15.8rem;
-  left: 3.5rem;
+}
+.world-logo img{
+  margin-right: 2rem;
   width: 200px;
 }
