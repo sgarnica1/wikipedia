@@ -4,7 +4,7 @@
 }
 .header-section-right {
   margin: 1.2rem 0;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
 }
 .header-section-right img{
   width: 17.6rem;
@@ -18,6 +18,6 @@
   top: 15.8rem;
 }
 .world-logo img{
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
   width: 200px;
 }
