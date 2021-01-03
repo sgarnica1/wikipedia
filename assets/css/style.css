@@ -40,7 +40,7 @@ header {
 main .input-container{
   height: 4.3rem;
   width: 100%;
-  max-width: 45rem;
+  max-width: 50rem;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -90,7 +90,7 @@ main .input-container .input-button:hover {
 
 .section-lang {
   display: grid;
-  /* padding: 2rem; */
+  padding: 0.5rem 2rem;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -98,6 +98,9 @@ main .input-container .input-button:hover {
 }
 .lang {
   padding: 1rem;
+}
+.lang strong:hover {
+  text-decoration-line: underline;
 }
 .section-lang .lang strong{
   font-size: 1.4rem;
@@ -116,4 +119,71 @@ main .input-container .input-button:hover {
   color: #54595d;
   /* display: block; */
   /* text-align: center; */
+}
+.language-button-section {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* display: grid;
+  grid-template-columns: 10% 80% 10%;
+  justify-items: center;
+  align-items: center; */
+  background-color: white;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.language-button-section .language-button {
+  width: 28rem;
+  height: 3.8rem;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  align-items: center;
+  justify-items: center;
+  background-color: #f8f9fa;
+  outline: none;
+  border: 1px solid #a2a9b1;
+  cursor: pointer;
+}
+.language-button-section .language-button:hover {
+  background-color: white;
+}
+.language-button-section .language-button span {
+  font-size: 1.4rem;
+  color: #36c;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+}
+.language-button-section .language-button .language-icon {
+  background-image: url("../img/language-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 22px;
+  height: 22px;
+  margin-left: 1rem;
+}
+.language-button-section .language-button .arrow-icon {
+  background-image: url("../img/arrow-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  margin-right: 1rem;
+}
+
+.language-button-section .lang-list-border {
+  height: 1px;
+  background-color: #c8ccd1;
+  width: 80%;
+  position: absolute;
+  margin-top: 1.8rem;
+  z-index: -1;
+}
+main .line-border {
+  margin: 3rem auto 0 auto;
+  height: 1px;
+  width: 95%;
 }

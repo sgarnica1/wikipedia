@@ -70,3 +70,11 @@ main {
 .section-lang #lang-polaco {
   padding-right: 3rem;
 }
+
+.language-button-section {
+  position: absolute;
+  top: 53rem;
+}
+.language-button-section .lang-list-border  {
+  width: 45rem;
+}

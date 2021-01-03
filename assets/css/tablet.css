@@ -15,7 +15,7 @@
 }
 .header-section-left {
   position: absolute;
-  top: 15.8rem;
+  top: 16.8rem;
 }
 .world-logo img{
   /* margin-right: 2rem; */
@@ -37,6 +37,9 @@ main .input-container {
   order: 1;
   margin-bottom: 3rem;
   width: 600px;
+}
+.section-lang .lang {
+  margin-bottom: 0.5rem;
 }
 .section-lang .lang strong {
   font-size: 1.6rem;
@@ -73,4 +76,16 @@ main .input-container {
 }
 .section-lang #lang-polaco {
   padding-right: 3rem;
+}
+
+.language-button-section {
+  position: absolute;
+  top: 53rem;
+}
+.language-button-section .lang-list-border  {
+  width: 45rem;
+}
+main .line-border {
+  position: absolute;
+  top: 58.7rem;
 }
